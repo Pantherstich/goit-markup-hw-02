@@ -1,9 +1,4 @@
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
-/* колір основного тексту #2E2F42 */
-/* білий колір тексту #F4F4FD */
-/* акцент #404BBF
- */
+
 :root {
   --heading-text-color: #2e2f42;
   --primary-text-color: #434455;
