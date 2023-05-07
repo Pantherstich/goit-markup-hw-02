@@ -1,28 +1,35 @@
-
 :root {
   --heading-text-color: #2e2f42;
   --primary-text-color: #434455;
   --accent-color: #404bbf;
 }
-.link { text-decoration: none;
-    }
+.link {
+  text-decoration: none;
+}
 body {
   color: var(--primary-text-color);
   background-color: #fff;
 }
 /* Логотип */
 .logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 .logo-web {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .list {
   list-style: none;
 }
-.link:visited {
+/* .link:visited {
   color: var(--heading-text-color);
-}
+} */
 
 .site-nav .link:hover {
   color: var(--accent-color);
@@ -62,9 +69,8 @@ body {
   color: #fff;
   background-color: var(--heading-text-color);
 }
-  .footer .link {
-    color: #fff;
-  }
+.footer .link {
+  color: #fff;
 }
 .button {
   color: #4d5ae5;
