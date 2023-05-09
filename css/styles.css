@@ -39,6 +39,9 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.contacts {
+  font-style: normal
+}
 .contacts-item {
   font-style: normal;
   font-weight: 400;
@@ -53,6 +56,7 @@ body {
 }
 .hero-heading {
   font-style: normal;
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -60,9 +64,9 @@ body {
   color: #ffffff;
 }
 .order-button {
+  cursor: pointer;
   background-color: #4d5ae5;
-
-  font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -74,9 +78,12 @@ body {
 }
 .order-button:hover,
 .order-button:focus {
-  background-color: #fff;
+  background-color: #404BBF;
   color: #4d5ae5;
+
+
 }
+
 /* ПРО */
 .about-title {
   display: none;
@@ -100,6 +107,7 @@ body {
 /* шо ми робимо */
 .doing-title {
   font-style: normal;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -113,6 +121,7 @@ body {
 }
 .team-title {
   font-style: normal;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -149,7 +158,7 @@ body {
   background-color: var(--heading-text-color);
 }
 .logo-footer {
-  font-family: 'Raleway';
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -162,11 +171,12 @@ body {
   color: #f4f4fd;
 }
 /* фільтр фото */
-.image-filter-title {
+/* .image-filter-title {
   display: none;
-}
+} */
 
 .button {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -179,6 +189,7 @@ body {
 .button:focus {
   background-color: var(--accent-color);
   color: #fff;
+  cursor: pointer;
 }
 /* Галерея */
 .gallery-title {
