@@ -3,20 +3,21 @@
   --primary-text-color: #434455;
   --accent-color: #404bbf;
 }
-
 .link {
   text-decoration: none;
 }
-.link:hover {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 body {
-  color: var(--primary-text-color);
+  color: #434455;
   background-color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 /* Логотип */
 .logo-nav {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -30,19 +31,15 @@ body {
 .list {
   list-style: none;
 }
-/* * .link:visited {
-  color: var(--heading-text-color);
-} */
-* .site-nav {
-  font-family: 'Roboto';
+.site-nav-item {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.contacts a {
-  font-family: 'Roboto';
+.contacts-item {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -53,7 +50,8 @@ body {
 /* Герой */
 .hero {
   background-color: #2e2f42;
-  font-family: 'Roboto';
+}
+.hero-heading {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -63,10 +61,14 @@ body {
 }
 .order-button {
   background-color: #4d5ae5;
+
   font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
@@ -80,7 +82,6 @@ body {
   display: none;
 }
 .about-list-title {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -89,7 +90,6 @@ body {
   color: #2e2f42;
 }
 .about-list-item {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -99,7 +99,6 @@ body {
 }
 /* шо ми робимо */
 .doing-title {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -113,7 +112,6 @@ body {
   background: #f4f4fd;
 }
 .team-title {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -123,7 +121,6 @@ body {
   color: #2e2f42;
 }
 .team-list-title {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -132,7 +129,6 @@ body {
   color: #2e2f42;
 }
 .team-list-item {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -144,7 +140,6 @@ body {
 
 /* Підвал */
 .footer {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -172,7 +167,6 @@ body {
 }
 
 .button {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -191,7 +185,6 @@ body {
   display: none;
 }
 .gallery-list-title {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -200,7 +193,6 @@ body {
   color: #2e2f42;
 }
 .gallery-list-item {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
